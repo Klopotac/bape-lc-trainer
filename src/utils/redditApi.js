@@ -9,7 +9,7 @@ const FAKE_KEYWORDS = [
   'fake', 'rep', 'replica', 'red light', 
   'sus', 'off', 'dhgate', '✗', '❌', 'bad', 
   'terrible', 'counterfeit', 'knockoff', 'fufu', 
-  'low quality', 'looks off', 'not legit'
+  'low quality', 'looks off', 'not legit', 'shit', 'shitty',
 ];
 
 // Verified checkers with 10x weight

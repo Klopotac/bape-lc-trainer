@@ -249,9 +249,28 @@ export default function Game({ initialPosts, timeFilter, fetchMorePosts }) {
         </div>
 
         <div className="text-textMuted text-sm mt-2 break-words">
-          <p className="font-semibold text-textPrimary">{currentPost.title}</p>
+          <p className="font-semibold text-textPrimary">
+            <a
+              href={currentPost.permalink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-camoGreen underline"
+              aria-label="Open original Reddit post"
+            >
+              {currentPost.title}
+            </a>
+          </p>
           <p>
             📅 {formatTimeAgo(currentPost.created_utc)} &nbsp;•&nbsp; 💬 {currentPost.num_comments} comments
+            <a
+              href={currentPost.permalink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-3 text-textMuted hover:text-textPrimary underline"
+              aria-label="Open original Reddit post"
+            >
+              View on Reddit ↗
+            </a>
           </p>
         </div>
 
