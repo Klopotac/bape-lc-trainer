@@ -1,0 +1,43 @@
+{
+  "name": "bape-lc-trainer",
+  "version": "1.0.0",
+  "description": "BAPE Legit Check Trainer - A web app to train legit check skills with Reddit posts",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.{js,jsx}"
+  },
+  "keywords": [
+    "bape",
+    "legit-check",
+    "reddit",
+    "trainer",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "BAPE LC Trainer Community",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "lucide-react": "^0.268.0",
+    "postcss": "^8.4.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.6.2",
+    "tailwindcss": "^3.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
