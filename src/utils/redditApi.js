@@ -242,7 +242,7 @@ export async function fetchPosts(timeFilter = 'week', limit = 100) {
       const images = extractImageUrls(post);
       if (images.length === 0) continue;
 
-      // Fetch top-level comments for analysis
+      // Fetch top-level comments for analysis test
       // Reddit JSON for post comments: https://www.reddit.com/comments/{post.id}.json?limit=20
       let comments = [];
       try {
